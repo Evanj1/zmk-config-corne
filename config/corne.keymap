@@ -73,7 +73,7 @@
         work_email: work_email {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp E &kp V &kp A &kp N &kp DOT &kp J &kp O &kp N &kp E &kp S &kp AT &kp S &kp A &kp N &kp T &kp A &kp N &kp D &kp E &kp R &kp DOT &kp C &kp O &kp DOT &kp U &kp K>;
+            bindings = <&none &kp LS(E) &kp V &kp A &kp N &kp DOT &kp LS(J) &kp O &kp N &kp E &kp S &kp AT &kp S &kp A &kp N &kp T &kp A &kp N &kp D &kp E &kp R &kp DOT &kp C &kp O &kp DOT &kp U &kp K>;
             label = "WORK_EMAIL";
         };
     };
